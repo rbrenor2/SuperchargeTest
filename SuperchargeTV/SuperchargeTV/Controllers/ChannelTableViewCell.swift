@@ -9,8 +9,6 @@
 import UIKit
 
 class ChannelTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    
 
     @IBOutlet weak var programmeCollectionView: UICollectionView!
     
@@ -30,7 +28,7 @@ class ChannelTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollect
         let cellID = "programmeCellID"
         let cell = programmeCollectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as! ProgrammeCollectionViewCell
         
-        let channel:Channel = channels.channels[indexPath.row]
+        let channel: Channel = channels.channels[indexPath.row]
         let programme: Programme = channel.programme[indexPath.row]
         
         cell.titleLabel.text = programme.title
