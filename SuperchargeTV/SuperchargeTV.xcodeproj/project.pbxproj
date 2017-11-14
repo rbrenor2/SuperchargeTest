@@ -13,6 +13,8 @@
 		70F614B81FBB5A6300EE8269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F614B71FBB5A6300EE8269 /* Assets.xcassets */; };
 		70F614BB1FBB5A6300EE8269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F614B91FBB5A6300EE8269 /* LaunchScreen.storyboard */; };
 		70F614C31FBB602200EE8269 /* SuperTV.json in Resources */ = {isa = PBXBuildFile; fileRef = 70F614C21FBB602200EE8269 /* SuperTV.json */; };
+		70F614C51FBB68A800EE8269 /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F614C41FBB68A800EE8269 /* ChannelTableViewCell.swift */; };
+		70F614C71FBB6D3100EE8269 /* ProgrammeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F614C61FBB6D3100EE8269 /* ProgrammeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		70F614BA1FBB5A6300EE8269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70F614BC1FBB5A6300EE8269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70F614C21FBB602200EE8269 /* SuperTV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperTV.json; sourceTree = "<group>"; };
+		70F614C41FBB68A800EE8269 /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		70F614C61FBB6D3100EE8269 /* ProgrammeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				70F614B01FBB5A6300EE8269 /* AppDelegate.swift */,
-				70F614B21FBB5A6300EE8269 /* ViewController.swift */,
+				70F614CF1FBB731F00EE8269 /* Controllers */,
 				70F614B41FBB5A6300EE8269 /* Main.storyboard */,
 				70F614B71FBB5A6300EE8269 /* Assets.xcassets */,
 				70F614B91FBB5A6300EE8269 /* LaunchScreen.storyboard */,
@@ -65,6 +69,16 @@
 				70F614C21FBB602200EE8269 /* SuperTV.json */,
 			);
 			path = SuperchargeTV;
+			sourceTree = "<group>";
+		};
+		70F614CF1FBB731F00EE8269 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				70F614B21FBB5A6300EE8269 /* ViewController.swift */,
+				70F614C61FBB6D3100EE8269 /* ProgrammeCollectionViewCell.swift */,
+				70F614C41FBB68A800EE8269 /* ChannelTableViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,8 @@
 			files = (
 				70F614B31FBB5A6300EE8269 /* ViewController.swift in Sources */,
 				70F614B11FBB5A6300EE8269 /* AppDelegate.swift in Sources */,
+				70F614C51FBB68A800EE8269 /* ChannelTableViewCell.swift in Sources */,
+				70F614C71FBB6D3100EE8269 /* ProgrammeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
