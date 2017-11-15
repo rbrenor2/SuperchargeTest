@@ -62,9 +62,15 @@
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
+                                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7W8-qC-BAx">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="8" height="83"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    </view>
                                                                 </subviews>
                                                             </view>
                                                             <connections>
+                                                                <outlet property="separatorBar" destination="7W8-qC-BAx" id="eU9-TY-AsT"/>
                                                                 <outlet property="timeLabel" destination="7Nv-TB-QbQ" id="rO2-1r-MGf"/>
                                                                 <outlet property="titleLabel" destination="ufi-qe-C9z" id="PXP-Yd-y00"/>
                                                             </connections>

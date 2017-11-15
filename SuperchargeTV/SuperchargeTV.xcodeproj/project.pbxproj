@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70089F001FBB95D3008E4B84 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70089EFF1FBB95D3008E4B84 /* DataManager.swift */; };
 		70F614B11FBB5A6300EE8269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F614B01FBB5A6300EE8269 /* AppDelegate.swift */; };
 		70F614B31FBB5A6300EE8269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F614B21FBB5A6300EE8269 /* ViewController.swift */; };
 		70F614B61FBB5A6300EE8269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F614B41FBB5A6300EE8269 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70089EFF1FBB95D3008E4B84 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		70F614AD1FBB5A6300EE8269 /* SuperchargeTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperchargeTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F614B01FBB5A6300EE8269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F614B21FBB5A6300EE8269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				70F614B01FBB5A6300EE8269 /* AppDelegate.swift */,
+				70089EFF1FBB95D3008E4B84 /* DataManager.swift */,
 				70F614CF1FBB731F00EE8269 /* Controllers */,
 				70F614B41FBB5A6300EE8269 /* Main.storyboard */,
 				70F614B71FBB5A6300EE8269 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F614B31FBB5A6300EE8269 /* ViewController.swift in Sources */,
+				70089F001FBB95D3008E4B84 /* DataManager.swift in Sources */,
 				70F614B11FBB5A6300EE8269 /* AppDelegate.swift in Sources */,
 				70F614C51FBB68A800EE8269 /* ChannelTableViewCell.swift in Sources */,
 				70F614C71FBB6D3100EE8269 /* ProgrammeCollectionViewCell.swift in Sources */,

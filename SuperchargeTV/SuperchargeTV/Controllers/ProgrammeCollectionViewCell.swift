@@ -11,4 +11,5 @@ import UIKit
 class ProgrammeCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var separatorBar: UIView!
 }
