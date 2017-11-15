@@ -1,4 +1,5 @@
 # SuperchargeTest
+## *To see a best version of this, see the branch bestVersion, where I solved some of the problems of this version after the 3 hour deadline
 
 ## Issues that I couldn't solve within the 3 hours deadline (but I will solve later):
     - Get DateFormatter to recognize the given date format - when I solve that, I can get the start time of the programme (now is only with a placeholder) and the duration of each one of them (to adjust the cell width accordingly)
